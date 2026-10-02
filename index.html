@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IU HPC Drive Backup</title>
+  <style>body{max-width:760px;margin:48px auto;padding:0 24px;font:18px/1.65 system-ui,sans-serif;color:#172334;background:#fff}a{color:#0057b8}h1,h2{line-height:1.25}nav{margin-bottom:32px}footer{margin-top:40px;font-size:15px;color:#526174}</style>
+</head>
+<body>
+  <nav><a href="index.html">Home</a> · <a href="privacy.html">Privacy policy</a></nav>
+  <main>
+    <h1>IU HPC Drive Backup</h1>
+    <p>A personal, operator-managed backup workflow that uses rclone and Google Drive to preserve selected files from a high-performance computing environment in the operator's authorized Google Drive accounts.</p>
+    <h2>What the application does</h2>
+    <p>The workflow copies approved files, resumes interrupted transfers, and reads destination file metadata and checksums to verify backups. It is not a public file-sharing service. Google-account authorization takes place on Google's own consent screen; this website does not collect passwords or authorize access.</p>
+    <h2>Google Drive access</h2>
+    <p>The desktop backup client requests the Google Drive scope needed to list and read files, create folders, and write backups. This scope can also permit editing or deleting Drive files. That capability is not permission for unrestricted deletion: any deletion or sharing change requires the operator's separate instruction. Access is used only for the disclosed backup, restore, verification, and explicitly approved maintenance operations.</p>
+    <h2>Private backups, public documentation</h2>
+    <p>This public website contains only application information and a privacy policy. It contains no backup files, research records, account credentials, access tokens, or private configuration. Source files and backup credentials are not published to this repository.</p>
+    <h2>Use and responsibility</h2>
+    <p>This is an independently maintained personal tool, not an official Indiana University or Google service. The operator must have authorization to copy each selected file and must respect applicable institutional rules, data-use agreements, and access restrictions. A successful transfer alone does not establish that all data has been backed up or that a source may safely be deleted.</p>
+    <p>Please read the <a href="privacy.html">privacy policy</a> before authorizing the application.</p>
+    <h2>Contact</h2>
+    <p>Maintainer: <a href="https://github.com/dazhao12">dazhao12 on GitHub</a>. For questions, open an issue in the <a href="https://github.com/dazhao12/iu-hpc-drive-backup/issues">documentation repository</a>. Do not include private files, patient information, credentials, or tokens in a public issue.</p>
+  </main>
+  <footer>Updated: 2 October 2026 · <a href="privacy.html">Privacy policy</a></footer>
+</body>
+</html>
